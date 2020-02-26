@@ -1,0 +1,46 @@
+2020-02-26 21:55:44 DEBUG Simpleandcompoundinterest:19 - enter the principle amount
+2020-02-26 21:55:56 DEBUG Simpleandcompoundinterest:23 - enter the principle amount
+2020-02-26 21:56:00 DEBUG Simpleandcompoundinterest:27 - enter the no of years
+2020-02-26 21:56:02 DEBUG Simpleandcompoundinterest:42 - Simple Interest=2.0
+2020-02-26 21:56:02 DEBUG Simpleandcompoundinterest:43 - Compound Interest=2.0
+2020-02-26 21:58:57 DEBUG Simpleandcompoundinterest:18 - Choose Materials to Construct a House : 
+
+2020-02-26 21:58:57 DEBUG Simpleandcompoundinterest:19 - 1.1200/- for Standard Materials
+
+2020-02-26 21:58:57 DEBUG Simpleandcompoundinterest:20 - 2.1500/- for Above Standard Materials
+
+2020-02-26 21:58:57 DEBUG Simpleandcompoundinterest:21 - 3.1800/- for High Standard Materials
+
+2020-02-26 21:58:57 DEBUG Simpleandcompoundinterest:22 - 4.2500/- for High Standard and Fully Automated
+
+2020-02-26 21:59:03 DEBUG Simpleandcompoundinterest:26 - Enter Area for Construction : 
+2020-02-26 21:59:05 DEBUG Simpleandcompoundinterest:29 - Cost for Construction is : 18000.0
+
+2020-02-26 22:01:20 DEBUG Simpleandcompoundinterest:18 - Choose Materials to Construct a House : 
+
+2020-02-26 22:01:20 DEBUG Simpleandcompoundinterest:19 - 1.1200/- for Standard Materials
+
+2020-02-26 22:01:20 DEBUG Simpleandcompoundinterest:20 - 2.1500/- for Above Standard Materials
+
+2020-02-26 22:01:20 ERROR Simpleandcompoundinterest:21 - 3.1800/- for High Standard Materials
+
+2020-02-26 22:01:20 DEBUG Simpleandcompoundinterest:22 - 4.2500/- for High Standard and Fully Automated
+
+2020-02-26 22:01:42 DEBUG Simpleandcompoundinterest:26 - Enter Area for Construction : 
+2020-02-26 22:01:44 INFO  Simpleandcompoundinterest:29 - Cost for Construction is : 21600.0
+
+2020-02-26 22:04:53 DEBUG Simpleandcompoundinterest:18 - Choose Materials to Construct a House : 
+
+2020-02-26 22:04:53 DEBUG Simpleandcompoundinterest:19 - 1.1200/- for Standard Materials
+
+2020-02-26 22:04:53 DEBUG Simpleandcompoundinterest:20 - 2.1500/- for Above Standard Materials
+
+2020-02-26 22:04:53 ERROR Simpleandcompoundinterest:21 - 3.1800/- for High Standard Materials
+
+2020-02-26 22:04:53 DEBUG Simpleandcompoundinterest:22 - 4.2500/- for High Standard and Fully Automated
+
+2020-02-26 22:05:52 DEBUG Simpleandcompoundinterest:17 - enter the principle amount
+2020-02-26 22:06:03 INFO  Simpleandcompoundinterest:20 - enter the principle amount
+2020-02-26 22:06:04 DEBUG Simpleandcompoundinterest:23 - enter the no of years
+2020-02-26 22:06:04 INFO  Simpleandcompoundinterest:34 - Simple Interest=2.0
+2020-02-26 22:06:04 DEBUG Simpleandcompoundinterest:35 - Compound Interest=2.0
