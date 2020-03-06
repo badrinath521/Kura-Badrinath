@@ -2,21 +2,22 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
+import java.io.*;
  class Linkedlist
 {
 	  String s;
 	   List l1=new LinkedList();
-		Scanner sc=new Scanner(System.in);
+	   Scanner sc=new Scanner(System.in);
 		
 	void initiallist()
 	{
 		System.out.print("the initial elements in the list are\n");
-		l1.add("korea");
-		l1.add("mamba");
-		l1.add("red sea");
-		l1.add("newyork");
-		l1.add("srimani");
-		l1.add("asia");
+		l1.add("123");
+		l1.add("badri");
+		l1.add("231");
+		l1.add("raman");
+		l1.add("124");
+		l1.add("agar");
 		l1.add("1300");
 		l1.add("1484");
 		l1.add("australia");
@@ -27,7 +28,7 @@ import java.util.Scanner;
 	{
 		System.out.println("enter the element you want to add to the list");
 		s=sc.next();
-        l1.add(s)	;
+                l1.add(s);	;
         
 	}
 	void remove()
@@ -45,25 +46,23 @@ import java.util.Scanner;
 			
 			System.out.println(i1.next());
 		}
-		System.out.println("------------------------");
+		System.out.println("-.-.-.-----");
 
 		System.out.println(l1);
 	}
 	void fetch()
 	{
-		System.out.println("enter the  index of element you want to fetch ");
+		System.out.println("enter the index of element you want to fetch ");
 		int s=sc.nextInt();
-		System.out.println(	l1.get(s));
-	
+		System.out.println(l1.get(s));
 	}
 	void selection()
 	{
 		int choice;
-		
 		int ch;
 		do
 		{
-		System.out.println("\nenter you choice of operation\n1.add \n2.delete\n3.fetch\n4.print\n");
+		System.out.println("\n enter your choice of operation\n1.add \n2.delete\n3.fetch\n4.print\n");
 		choice=sc.nextInt();
 		switch(choice)
 		{
@@ -80,7 +79,7 @@ import java.util.Scanner;
 		        break;
 		       
 		}
-		System.out.println("do you want to do any other operation\n1.yes\n2.no");
+		System.out.println("Do you want to do any other operation\n 1.yes\n2.no");
 		ch=sc.nextInt();
 	}while(ch==1);
 	}
