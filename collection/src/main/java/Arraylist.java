@@ -11,7 +11,6 @@
 	    //This array will store all elements added to list
 	    private Object elements[];
 	 
-	    //Default constructor
 	    public Arraylist(T initElements[]) {
 	    	elements = new Object[DEFAULT_CAPACITY];
 	    	int initElementsSize = initElements.length;
@@ -38,7 +37,7 @@
 	    @SuppressWarnings("unchecked")
 	    public T get(int index) {
 	        if (index >= size || index < 0) {
-	            throw new IndexOutOfBoundsException("Index : " + index + ", Size :" + size);
+	            throw new IndexOutOfBoundsException("Index:" +index+ ", Size :" + size);
 	        }
 	        return (T) elements[index];
 	      }
