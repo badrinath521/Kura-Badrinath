@@ -24,7 +24,7 @@
 	    	}
 	    }
 	 
-	    //Add method
+	    //this is add method 
 	    public boolean add(T element) {
 	        if (size == elements.length) {
 	            ensureCapacity();
@@ -33,7 +33,7 @@
 			return true;
 	    }
 	     
-	    //Get method
+	    //this is get method
 	    @SuppressWarnings("unchecked")
 	    public T get(int index) {
 	        if (index >= size || index < 0) {
@@ -42,7 +42,7 @@
 	        return (T) elements[index];
 	      }
 	     
-	    //Remove method
+	    //this is remove method
 	    @SuppressWarnings("unchecked")
 	    public T remove(int index) {
 	        if (index >= size || index < 0) {
@@ -54,8 +54,7 @@
 	        size--;
 	        return (T) item;
 	    }
-	     
-	    //Get Size of list
+	    
 	    public int size() {
 	        return size;
 	    }
