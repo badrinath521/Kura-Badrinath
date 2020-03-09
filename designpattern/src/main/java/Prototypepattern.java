@@ -18,26 +18,26 @@ import java.util.Map;
         return clone; 
     } 
 } 
-class blueColor extends Color 
+class blackColor extends Color 
 { 
-    public blueColor()  
+    public blackColor()  
     { 
-        this.colorName = "blue"; 
+        this.colorName = "black"; 
     } 
    void addColor()  
     { 
-        System.out.println("Blue color added"); 
+        System.out.println("Black color is added"); 
     } 
 } 
-class blackColor extends Color
+class whiteColor extends Color
 { 
-    public blackColor() 
+    public whiteColor() 
     { 
-        this.colorName = "black"; 
+        this.colorName = "white"; 
     }
     void addColor()  
     { 
-        System.out.println("Black color added"); 
+        System.out.println("white color  is added"); 
     } 
 } 
 class ColorStore
@@ -45,8 +45,8 @@ class ColorStore
     private static Map<String, Color> colorMap = new HashMap<String, Color>();  
     static 
     { 
-        colorMap.put("blue", new blueColor()); 
         colorMap.put("black", new blackColor()); 
+        colorMap.put("white", new whiteColor()); 
     } 
     public static Color getColor(String colorName) 
     { 
@@ -57,9 +57,9 @@ class Prototypepattern
 { 
     public static void main (String[] args) 
     { 
-        ColorStore.getColor("blue").addColor(); 
         ColorStore.getColor("black").addColor(); 
+        ColorStore.getColor("white").addColor(); 
+        ColorStore.getColor("white").addColor(); 
         ColorStore.getColor("black").addColor(); 
-        ColorStore.getColor("blue").addColor(); 
     } 
 } 
