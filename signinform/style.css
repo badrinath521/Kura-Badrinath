@@ -1,0 +1,46 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+.sign-in-form
+{
+width: 300px;
+box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+background: #fff;
+padding: 20px;
+margin: 8% auto 0;
+text-align: center;
+}
+.input-box
+{
+font-family:"Roboto",sans-serif;
+text-transform: lowercase;
+outline: 0;
+background: #00CED1;
+width: 100%;
+border: 0;
+padding: 15px;
+color: #FFFFFF;
+font-size: 18pt;
+}
+.button1
+{
+background-color: blue;
+text-transform: italic;
+}
+.button2
+{
+background-color: orange;
+text-transform: italic;
+}
+.button3
+{
+background-color: greenyellow;
+text-transform: italic;
+}
+h2
+{ 
+  background-color: #00CED1;
+  bo
+}
